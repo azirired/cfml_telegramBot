@@ -9,4 +9,4 @@ Untuk mengetahui lebih lanjut boleh rujuk pada dokumentasi di https://telegram-b
 
 # Wujudkan bot anda
 
-Cara untuk wujudkan bot anda boleh rujuk di sini https://core.telegram.org/bots
+Cara untuk wujudkan bot anda boleh rujuk di sini https://core.telegram.org/bots#3-how-do-i-create-a-bot
