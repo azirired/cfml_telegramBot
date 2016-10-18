@@ -1,7 +1,12 @@
-<!--- untuk dapatkan mesej yang dihantar ke telegram bot anda--->
-<cfparam name="offset" default="0"> <!--- offset adalah untuk baca mesej yang terbaru berdasarkan no UPDATE_ID yang di setkan--->
+
+<cfparam name="offset" default="0"> 
+<!--- offset bertujuan untuk papar mesej yang terbaru berdasarkan no UPDATE_ID.
+Jika offset tidak diset semua mesej lama akan dipaparkan
+--->
+
 <cfparam name="bot_token" default="{your bot token id}">
 
+<!--- untuk dapatkan mesej yang dihantar ke telegram bot anda--->
 <cfoutput>
   <cfhttp url="https://api.telegram.org/bot#bot_token#/getupdates?offset=#offset#" />
 </cfoutput>
