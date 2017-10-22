@@ -2,4 +2,7 @@ Set Webhook
 https://api.telegram.org/bot{bot_token}/setwebhook?url=https://{url cfml to trigger};
 
 DELETE webhook
-https://api.telegram.org/bot{bot_token}/deletewebhook?url=https://{url cfml to trigger};
+https://api.telegram.org/bot{bot_token}/deletewebhook
+
+Get info webhook
+https://api.telegram.org/bot{bot_token}/getWebhookInfo;
