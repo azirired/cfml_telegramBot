@@ -6,3 +6,7 @@ https://api.telegram.org/bot{bot_token}/deletewebhook
 
 Get info webhook
 https://api.telegram.org/bot{bot_token}/getWebhookInfo;
+
+json output from get update
+{"ok":true,"result":[{"update_id":694660458,
+"message":{"message_id":109494,"from":{"id":BOT_ID,"is_bot":false,"first_name":"1st_NAME","username":"USERNAME","language_code":"en-US"},"chat":{"id":BOT_ID,"first_name":"1st_NAME","username":"USERNAME","type":"private"},"date":1522851856,"text":"hi there"}}]}
