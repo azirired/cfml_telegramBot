@@ -1,6 +1,6 @@
-<cfset token=“insert_your_bot_token_here>
+<cfset token="replace_your_bot_token_here">
 
-<cfset urlTelegram="https://api.telegram.org/bot">
+<cfset urlTelegram="https://api.telegram.org/bot#token#/">
 
 <!---main menu sys appointment--->
 <cfset buttonMenu="{""keyboard"":[[""/daftar""],[""/temujanji""],[""/permohonan""],[""/pamer""],[""/bantuan""]],""one_time_keyboard"":true,""resize_keyboard"":true}">
